@@ -1,0 +1,23 @@
+
+a:link {
+    color: palevioletred;
+}
+
+a:visited {
+    color: thistle;
+}
+/*this shows a colour on the link when we hover on it*/
+a:hover {
+    background: khaki;
+}
+
+/*this colour willl display when the link is clicked*/
+a:active {
+    color: aqua;
+}
+
+/*this colour willl display when the paragraph is clicked*/
+p:active {
+    background: gold;
+}
+

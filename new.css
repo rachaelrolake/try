@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  div.box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(orange, red);
+  }
+  div.box-1 {
+    transform: rotate(acos(1));
+  }
+  div.box-2 {
+    transform: rotate(acos(0.5));
+  }
+  div.box-3 {
+    transform: rotate(acos(0));
+  }
+  div.box-4 {
+    transform: rotate(acos(-0.5));
+  }
+  div.box-5 {
+    transform: rotate(acos(-1));
+  }
+  

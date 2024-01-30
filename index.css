@@ -1,0 +1,31 @@
+a:link {
+    color: firebrick;
+}
+
+a:visited {
+    color: aquamarine;
+}
+
+a:hover {
+    color: brown;
+}
+a:active{
+    color: green;
+}
+
+p:left{
+    color: blueviolet;
+}
+
+.ani {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    animation-name: example;
+    animation-duration: 5s;
+}
+@keyframes example {
+    from {background-color: palevioletred}
+    to {background-color: yellowgreen;}
+
+}
